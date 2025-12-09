@@ -48,7 +48,7 @@ document.querySelectorAll('nav a').forEach(anchor => {
     });
 });
 
-// 3. 给高亮的时间轴节点加样式（在CSS中补充）
+// 3. 给高亮的时间轴节点添加样式（在CSS中补充）
 // 这里用JS动态添加CSS，避免单独写在CSS里遗漏
 const style = document.createElement('style');
 style.textContent = `
